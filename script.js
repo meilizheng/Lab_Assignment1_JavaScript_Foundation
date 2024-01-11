@@ -1,0 +1,87 @@
+// //Variables
+// let firstName = "Meili";
+// let lastName = "Zheng";
+// console.log(`Hello, ${firstName} ${lastName}!`);
+
+
+// //Global Scope 
+// let num = 10;
+// console.log(num);
+// if (num > 0) {
+//    let num1 = 20;   
+//    console.log(num1);
+// }
+// console.log(num1);
+// //Uncaught ReferenceError: num1 is not defined
+
+
+// //Ternary Operator 
+// let number = 17;
+// let checkNum = (number / 2 == 0) ? `${number} is even number` : `${number} is odd number.`
+// console.log(checkNum);
+
+
+// //String Concatenation
+// let fruit1 = "apple";
+// let fruit2 = "banana";
+// let fruitMessage = fruit1 + " " + fruit2;
+// console.log(fruitMessage);
+
+
+// //Ternary Operator with String Concatenation
+// let userName = "Meili";
+// let isLoggedIn = true;
+// let cheLogIn = (isLoggedIn) ? `Welcome Back, ${userName}!` : `Hello, ${userName}! Please login`;
+// console.log(cheLogIn);
+
+
+// //Global vs. Local Scope
+// let globalVar = "10";
+// function myFunction(){
+//     let localVar = "5";
+//     console.log(localVar); 
+//     console.log(globalVar); 
+// }
+// console.log(globalVar); //print 10
+// myFunction(); //call myFunction print 5 and 10
+// //The globalVar variable is declared outside the block, making it a global variable. It is accessible both inside and outside the block.
+// //localVar variables can just called inside of the local scope.
+// console.log(localVar); //Uncaught ReferenceError: localVar is not defined
+
+
+// // String Length and Concatenation
+// let firstName = "John";
+// let lastName = "Doe";
+// let fullName = firstName + lastName;
+// let nameLength = fullName.length
+// console.log(nameLength);
+
+
+// //Conditional String Concatenation
+// //on this question I'm not clearly follow the problem direction. I added a variable for salePrice. then use the math operation to caclutate the discount based on the number of the discount variable
+// //if the discoutn greater and equal than salePrice * 2, print "20% or more discount on ${product}". else print "less than 20% discount on ${product}". it is the same logic behind the code.
+// //but added more steps to let the code more easier to read.
+
+// let product = "laptop";
+// let salePrice = 699;
+// let discount = 50;
+// if (discount >= salePrice * 0.02){
+//     console.log(`20% or more discount on ${product}`)
+// }
+// else if(discount < salePrice * 0.02){
+//     console.log(`less than 20% discount on ${product}`)
+// }
+
+
+// //Dynamic String Concatenation
+// let nameOfCha = "Dora";
+// let place = "jungle";
+// let activity = "explore";
+// let story = `Once upon a time, ${nameOfCha} visited ${place} and enjoyed ${activity}.`;
+// console.log(story);
+
+
+
+//// HTML structures the content on a webpage using elements like headings, paragraphs, images, links, and more.
+//// CSS is responsible for styling and presentation on the web. It controls the layout, appearance, and design of HTML elements.
+//// JavaScript adds interactivity and dynamic behavior to web pages.
