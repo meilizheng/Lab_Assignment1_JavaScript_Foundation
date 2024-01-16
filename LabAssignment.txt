@@ -85,3 +85,9 @@
 // // HTML structures the content on a webpage using elements like headings, paragraphs, images, links, and more.
 // // CSS is responsible for styling and presentation on the web. It controls the layout, appearance, and design of HTML elements.
 // // JavaScript adds interactivity and dynamic behavior to web pages.
+
+
+
+// HTML structures the content on a webpage using elements like headings, paragraphs, images, links, and more.
+// CSS is responsible for styling and presentation on the web. It controls the layout, appearance, and design of HTML elements.
+// JavaScript adds interactivity and dynamic behavior to web pages.

@@ -1,0 +1,3 @@
+GitHub Link for Lab Assignment1
+
+https://github.com/meilizheng/Lab_Assignment1_JavaScript_Foundation/tree/main
